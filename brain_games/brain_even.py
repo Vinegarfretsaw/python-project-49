@@ -6,7 +6,6 @@ def welcome_user():
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f'Hello, {name}!')
-    return name
 
 
 def is_even(num):
@@ -18,15 +17,17 @@ def is_even(num):
 
 
 def game():
+    welcome_user()
     counter = 0
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     while counter < 3:
         num = randint(1, 100)
-        print('Answer "yes" if the number is even, otherwise answer "no".')
         print("Question: " , num)
         answer = input()
         is_even(num)
         if answer != correct_answer:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"Let's try again, {name}!")
         else:
             print("Correct!")
             counter += 1
