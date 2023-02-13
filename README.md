@@ -1,9 +1,9 @@
 # Welcome to the Brain Games!
 
 ## Setup:
--make install
--make build
--make package-install
+make install
+make build
+make package-install
 
 ### Brain Even game:
 [![asciicast](https://asciinema.org/a/559384.svg)](https://asciinema.org/a/559384)
