@@ -1,8 +1,6 @@
 # Welcome to the Brain Games!
 
 ## Setup:
-Using Makefile:
-
 -make install
 -make build
 -make package-install
