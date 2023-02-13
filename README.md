@@ -1,12 +1,9 @@
-Welcome to the Brain Games!
-### Asciinema "Start of Brain Games":
-[![asciicast](https://asciinema.org/a/558743.svg)](https://asciinema.org/a/558743)
+## Welcome to the Brain Games!
+### Brain Even game:
+[![asciicast](https://asciinema.org/a/559384.svg)](https://asciinema.org/a/559384)
 
-### Asciinema "Win of the brain-even game":
-[![asciicast](https://asciinema.org/a/558744.svg)](https://asciinema.org/a/558744)
-
-### Asciinema "Lose of the brain-even game":
-[![asciicast](https://asciinema.org/a/558997.svg)](https://asciinema.org/a/558997)
+### Brain Calc game:
+[![asciicast](https://asciinema.org/a/559385.svg)](https://asciinema.org/a/559385)
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Vinegarfretsaw/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Vinegarfretsaw/python-project-49/actions)
