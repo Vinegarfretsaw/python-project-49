@@ -3,25 +3,20 @@ import random
 GAME = "What number is missing in the progression?"
 
 def play():
-    num1 = random.randint(1, 10)
-    num2 = random.randint(90, 100)
-    step = random.randint(1, 10)
-    question = f'{progression}'
-    return question, progression(num1, num2, step), right_answer()
+    start = random.randint(1, 10)
+    step = random.randint(2, 10)
+    length = random.randint(5, 10)
+    question, right_answer = progression(start, length, step)
+    return question, right_answer
 
-
-def progression(num1, num2, step):
+def progression(start, length, step):
     progression = []
-    for i in range(num1, num2, step):
+    finish = start + step * length
+    for i in range(start, finish, step):
         progression.append(i)
     progression.sort()
-    return progression
-
-def right_answer():
-    right_answer = []
-    for _ in progression:
-        right_answer = random.choice(progression.index)
-        break
-    for _ in right_answer:
-        right_answer = '..'
-    return right_answer
+    random_index = random.randint(0, length - 1)
+    right_answer = progression[random_index]
+    progression[random_index] = '..'
+    final_progression = ' '.join(map(str, progression))
+    return final_progression, right_answer
