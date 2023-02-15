@@ -6,30 +6,31 @@
 
 # Welcome to the Brain Games!
 
-### There are five games, called Brain Games:
-#### 1. Brain Even game - You need to answer an even number or not. One mistake and you lose. Score 3 points to win.
-#### 2. Brain Calc game - You need to calculate correctly. One mistake and you lose. Score 3 points to win.
-#### 3. Brain GCD game - You need to find the greatest common divisor. One mistake and you lose. Score 3 points to win.
-#### 4. Brain Progression game - You need to find the hidden progression element. One mistake and you lose. Score 3 points to win.
-#### 5. Brain Prime game - You need to answer an prime number or not. One mistake and you lose. Score 3 points to win.
+There are five games, called Brain Games:
+1. Brain Even game - You need to answer an even number or not. One mistake and you lose. Score 3 points to win.
+2. Brain Calc game - You need to calculate correctly. One mistake and you lose. Score 3 points to win.
+3. Brain GCD game - You need to find the greatest common divisor. One mistake and you lose. Score 3 points to win.
+4. Brain Progression game - You need to find the hidden progression element. One mistake and you lose. Score 3 points to win.
+5. Brain Prime game - You need to answer an prime number or not. One mistake and you lose. Score 3 points to win.
 
 ## Installation:
-#### - Make install
-#### - Make build
-#### - Make publish
-#### - Make package-install
+- Make install
+- Make build
+- Make publish
+- Make package-install
 
-### Brain Even game:
+## Demonstration:
+#### Brain Even game:
 [![asciicast](https://asciinema.org/a/559384.svg)](https://asciinema.org/a/559384)
 
-### Brain Calc game:
+#### Brain Calc game:
 [![asciicast](https://asciinema.org/a/559385.svg)](https://asciinema.org/a/559385)
 
-### Brain GCD game:
+#### Brain GCD game:
 [![asciicast](https://asciinema.org/a/559387.svg)](https://asciinema.org/a/559387)
 
-### Brain Progression game:
+#### Brain Progression game:
 [![asciicast](https://asciinema.org/a/559928.svg)](https://asciinema.org/a/559928)
 
-### Brain Prime game:
+#### Brain Prime game:
 [![asciicast](https://asciinema.org/a/559931.svg)](https://asciinema.org/a/559931)
