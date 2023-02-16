@@ -6,7 +6,7 @@
 
 # Welcome to the Brain Games!
 
-There are five games, called Brain Games:
+There are 5 games called Brain Games:
 1. Brain Even game - You need to answer an even number or not. One mistake and you lose. Score 3 points to win.
 2. Brain Calc game - You need to calculate correctly. One mistake and you lose. Score 3 points to win.
 3. Brain GCD game - You need to find the greatest common divisor. One mistake and you lose. Score 3 points to win.
