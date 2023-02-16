@@ -19,4 +19,3 @@ def is_even(num):
         return True
     else:
         return False
-    
