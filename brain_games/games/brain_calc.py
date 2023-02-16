@@ -1,6 +1,8 @@
 import random
 
+
 GAME = "What is the result of the expression?"
+
 
 def play():
     num1 = random.randint(1, 10)
@@ -8,6 +10,7 @@ def play():
     num2 = random.randint(1, 10)
     question = f'{num1} {operation} {num2}'
     return question, calc(num1, num2, operation)
+
 
 def calc(num1, num2, operation):
     if operation == '+':

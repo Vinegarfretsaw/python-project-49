@@ -1,6 +1,8 @@
 import random
 
+
 GAME = "What number is missing in the progression?"
+
 
 def play():
     start = random.randint(1, 10)
@@ -8,6 +10,7 @@ def play():
     length = random.randint(5, 10)
     question, right_answer = progression(start, length, step)
     return question, right_answer
+
 
 def progression(start, length, step):
     progression = []

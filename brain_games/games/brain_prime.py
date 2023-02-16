@@ -1,6 +1,8 @@
 import random
 
+
 GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def play():
     num = random.randint(2, 100)
@@ -10,6 +12,7 @@ def play():
     else:
         right_answer = "no"
     return question, right_answer
+
 
 def is_prime(num):
     for i in range(2, num):
