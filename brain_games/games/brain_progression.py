@@ -25,4 +25,4 @@ def progression(start, length, step):
     progression[random_index] = '..'
     final_progression = ' '.join(map(str, progression))
     question = f'{final_progression}'
-    return final_progression, right_answer
+    return question, right_answer
