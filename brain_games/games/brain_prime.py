@@ -2,12 +2,13 @@ import random
 
 
 GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+MIN_NUM, MAX_NUM = 2, 100
 
 
 def play():
-    num = random.randint(2, 100)
+    num = random.randint(MIN_NUM, MAX_NUM)
     question = f'{num}'
-    if is_prime(num) is True:
+    if is_prime(num):
         right_answer = "yes"
     else:
         right_answer = "no"

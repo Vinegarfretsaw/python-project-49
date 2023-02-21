@@ -2,12 +2,13 @@ import random
 
 
 GAME = "What is the result of the expression?"
+MIN_NUM, MAX_NUM = 0, 10
 
 
 def play():
-    num1 = random.randint(1, 10)
+    num1 = random.randint(MIN_NUM, MAX_NUM)
     operation = random.choice(['+', '-', '*'])
-    num2 = random.randint(1, 10)
+    num2 = random.randint(MIN_NUM, MAX_NUM)
     question = f'{num1} {operation} {num2}'
     return question, calc(num1, num2, operation)
 

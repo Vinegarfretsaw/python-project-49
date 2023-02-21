@@ -2,12 +2,13 @@ from random import randint
 
 
 GAME = 'Answer "yes" if the number is even, otherwise answer "no".'
+MIN_NUM, MAX_NUM = 0, 100
 
 
 def play():
-    num = randint(1, 100)
+    num = randint(MIN_NUM, MAX_NUM)
     question = f'{num}'
-    if is_even(num) is True:
+    if is_even(num):
         right_answer = "yes"
     else:
         right_answer = "no"

@@ -1,13 +1,16 @@
 import prompt
 
 
+WIN = 3
+
+
 def start(game):
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f'Hello, {name}!')
     print(game.GAME)
     counter = 0
-    while counter < 3:
+    while counter < WIN:
         question, right_answer = game.play()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
@@ -19,5 +22,5 @@ def start(game):
         else:
             print("Correct!")
             counter += 1
-    if counter == 3:
+    if counter == WIN:
         print(f"Congratulations, {name}!")
