@@ -1,11 +1,11 @@
 from random import randint
 
 
-GAME = 'Answer "yes" if the number is even, otherwise answer "no".'
+RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 MIN_NUM, MAX_NUM = 0, 100
 
 
-def play():
+def information():
     num = randint(MIN_NUM, MAX_NUM)
     question = f'{num}'
     if is_even(num):

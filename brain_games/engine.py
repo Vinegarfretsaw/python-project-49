@@ -8,19 +8,18 @@ def start(game):
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f'Hello, {name}!')
-    print(game.GAME)
+    print(game.RULE)
     counter = 0
     while counter < WIN:
-        question, right_answer = game.play()
+        question, right_answer = game.information()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
-        if answer != str(right_answer):
+        if answer == right_answer:
+            print("Correct!")
+            counter += 1
+        else:
             print(f"'{answer}' is wrong answer ;(.", end=" ")
             print(f"Correct answer was '{right_answer}'.")
             print(f"Let's try again, {name}!")
-            break
-        else:
-            print("Correct!")
-            counter += 1
-    if counter == WIN:
-        print(f"Congratulations, {name}!")
+            exit()
+    print(f"Congratulations, {name}!")

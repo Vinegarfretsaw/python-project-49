@@ -1,11 +1,11 @@
 import random
 
 
-GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 MIN_NUM, MAX_NUM = 2, 100
 
 
-def play():
+def information():
     num = random.randint(MIN_NUM, MAX_NUM)
     question = f'{num}'
     if is_prime(num):
@@ -16,7 +16,10 @@ def play():
 
 
 def is_prime(num):
-    for i in range(2, num):
-        if num % i == 0:
-            return False
-    return True
+    if num > 1:
+        for i in range(2, num):
+            if num % i == 0:
+                return False
+        return True
+    else:
+        return False
