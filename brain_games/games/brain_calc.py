@@ -27,3 +27,4 @@ def calculate(num1, num2, operation):
             elif operation == '*':
                 right_answer = num1 * num2
             return str(right_answer)
+        

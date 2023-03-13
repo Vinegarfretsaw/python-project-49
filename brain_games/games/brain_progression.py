@@ -7,9 +7,6 @@ MIN_STEP, MAX_STEP = 2, 10
 MIN_LENGTH, MAX_LENGTH = 5, 10
 
 
-global progression
-
-
 def get_information():
     start = random.randint(MIN_START, MAX_START)
     step = random.randint(MIN_STEP, MAX_STEP)
