@@ -14,16 +14,15 @@ def get_information():
 
 
 def calculate(num1, num2, operation):
-    while True:
-        if operation == '0':
-            break
-        if operation not in ['+', '-', '*']:
-            continue
-        else:
-            if operation == '+':
-                right_answer = num1 + num2
-            elif operation == '-':
-                right_answer = num1 - num2
-            elif operation == '*':
-                right_answer = num1 * num2
-            return str(right_answer)
+    if operation == '0':
+        return ''
+    if operation not in ['+', '-', '*']:
+        return ''
+    else:
+        if operation == '+':
+            right_answer = num1 + num2
+        elif operation == '-':
+            right_answer = num1 - num2
+        elif operation == '*':
+            right_answer = num1 * num2
+        return str(right_answer)
