@@ -7,11 +7,14 @@ MIN_STEP, MAX_STEP = 2, 10
 MIN_LENGTH, MAX_LENGTH = 5, 10
 
 
-def information():
+global progression
+
+
+def get_information():
     start = random.randint(MIN_START, MAX_START)
     step = random.randint(MIN_STEP, MAX_STEP)
     length = random.randint(MIN_LENGTH, MAX_LENGTH)
-    get_progression(start, length, step)
+    progression = get_progression(start, length, step)
     random_index = random.randint(0, length - 1)
     right_answer = str(progression[random_index])
     progression[random_index] = '..'

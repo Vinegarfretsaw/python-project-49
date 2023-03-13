@@ -11,7 +11,7 @@ def start(game):
     print(game.RULE)
     counter = 0
     while counter < WIN:
-        question, right_answer = game.information()
+        question, right_answer = game.get_information()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == right_answer:

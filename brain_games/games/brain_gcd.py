@@ -6,7 +6,7 @@ RULE = "Find the greatest common divisor of given numbers."
 MIN_NUM, MAX_NUM = 1, 100
 
 
-def information():
+def get_information():
     num1 = random.randint(MIN_NUM, MAX_NUM)
     num2 = random.randint(MIN_NUM, MAX_NUM)
     question = f'{num1} {num2}'
