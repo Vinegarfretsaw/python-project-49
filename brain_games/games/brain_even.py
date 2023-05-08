@@ -6,10 +6,7 @@ MIN_NUM, MAX_NUM = 0, 100
 
 
 def is_even(num):
-    if num % 2 == 0:
-        return True
-    else:
-        return False
+    return num % 2 == 0
 
 
 def get_information():
